@@ -7,3 +7,4 @@ from . import models
 class AdoptViewSet(viewsets.ModelViewSet):
     queryset = models.Available.objects.all()
     serializer_class = serializers.AvailableSerializer
+

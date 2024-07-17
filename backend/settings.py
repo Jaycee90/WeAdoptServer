@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
     #Internal app
     'adopt',
+    'donate',
 ]
 
 MIDDLEWARE = [

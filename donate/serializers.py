@@ -1,9 +1,9 @@
 from rest_framework import serializers
 from . import models
 
-class AvailableSerializer(serializers.ModelSerializer):
+class CollectedSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.Available
+        model = models.Collected
         fields = '__all__'
 
 
