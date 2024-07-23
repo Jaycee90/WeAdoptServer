@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['54.151.54.110', '0.0.0.0', 'ec2-54-151-54-110.us-west-1.compute.amazonaws.com']
 
-CORS_ALLOWED_ORIGINS = ["https://weadopt.s3.us-west-1.amazonaws.com", "http://localhost:5173"]
+CORS_ALLOWED_ORIGINS = [ "http://weadopt.s3-website-us-west-1.amazonaws.com", "http://localhost:5173"]
 
 # Application definition
 
