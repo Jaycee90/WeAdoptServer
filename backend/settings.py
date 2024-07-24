@@ -25,30 +25,11 @@ SECRET_KEY = 'django-insecure-7*!w=*3pk%lcez!5v1(n(ovscligw$_14$uf*egw68oi!&*fyg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.151.54.110', '0.0.0.0', '127.0.0.1', 'ec2-54-151-54-110.us-west-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['localhost', '54.151.54.110', '0.0.0.0', '127.0.0.1', 'ec2-54-151-54-110.us-west-1.compute.amazonaws.com']
+
 
 CORS_ALLOWED_ORIGINS = [ "http://localhost:3000", "http://weadopt.s3-website-us-west-1.amazonaws.com"]
 
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-]
-
-CORS_ALLOW_HEADERS = [
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-]
 
 # Application definition
 INSTALLED_APPS = [
