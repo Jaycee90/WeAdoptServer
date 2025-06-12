@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '54.151.54.110', '0.0.0.0', '127.0.0.1', 'ec2-54-151-54-110.us-west-1.compute.amazonaws.com']
 #changes...for commit check
-CORS_ALLOWED_ORIGINS = [ "http://localhost:3000", "http://weadopt.s3-website-us-west-1.amazonaws.com"]
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'http://weadopt.s3-website-us-west-1.amazonaws.com']
 
 
 # Application definition
